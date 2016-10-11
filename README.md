@@ -1,6 +1,6 @@
 # sonarqube-duplicates-removal
 Remove duplicated projects from SonarQube analysis
 
-Using:
+Just call the command below before **MSBuild.SonarQube.Runner.exe end**:
 
-**RemoveSonarOutputDuplicates.exe "C:\Path\To\ProjectSources\.sonarqube\out"**
+**RemoveSonarOutputDuplicates.exe "C:\Path\To\ProjectSources\\.sonarqube\out"**
